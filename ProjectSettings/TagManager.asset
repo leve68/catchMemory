@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Monster
+  - MonsterHead
+  - Item
+  - Fox
+  - Wool
+  - MovingPlatform
+  - Scene
+  - Ball
+  - test
+  - Bound
+  - BackGround
+  - UI
+  - CharacterBound
+  - BlackSlime
+  - BoundException
+  - Manager
+  - Hedgehog
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Immune
+  - Monster
+  - Item
+  - Character
+  - Bound
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
