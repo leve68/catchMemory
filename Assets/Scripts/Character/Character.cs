@@ -702,6 +702,7 @@ public class Character : MonoBehaviour
     {
         yield return new WaitForSeconds(duration);
         player.gameObject.layer = LayerMask.NameToLayer("Character");
+        ChangeState(new Idle(player, playerUI));
     }
     public void SetImmune(float duration, float blinkTime)//��������
     {
