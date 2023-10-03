@@ -114,8 +114,18 @@ public class RedAndBlackSlime : MonoBehaviour
         if (collision.gameObject.tag == "Ball")
         {
             life--;
-            SlimeAnimation.SetTrigger("Hit");
             StartCoroutine("Blink");
+            if (life < 1)
+            {
+                audioSource.Play();
+                isActive = false;
+                transform.GetComponent<CircleCollider2D>().enabled = false;
+                rigid.simulated = false;
+                SlimeAnimation.SetBool("Dead", true);
+                Destroy(this.gameObject, 3f);
+            }
+
+            SlimeAnimation.SetTrigger("Hit");
         }
     }
 

@@ -37,7 +37,7 @@ public class BallItem : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.name == "Hedgehog")
+        if (other.gameObject.tag == "Monster" || other.gameObject.tag == "Hedgehog")
         {
             Destroy(this.gameObject);           //고슴도치와 충돌하면 파괴
         }
