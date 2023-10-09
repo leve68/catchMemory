@@ -32,9 +32,9 @@ public class Lobby : UI_Scene
 
         if (unlockedScenes.Contains(0))
         {
-            firstGame = true;
+            firstGame = false;
         }
-        else firstGame = false;
+        else firstGame = true;
 
         if (firstGame)
         {
